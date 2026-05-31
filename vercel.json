@@ -2,7 +2,7 @@
   "cleanUrls": true,
   "rewrites": [
     {
-      "source": "/qrcode/certificate/:path*",
+      "source": "/qrcode/certificate/:id",
       "destination": "/qrcode/certificate/index.html"
     }
   ]
