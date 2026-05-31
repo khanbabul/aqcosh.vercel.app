@@ -2,6 +2,10 @@
   "cleanUrls": true,
   "rewrites": [
     {
+      "source": "/qrcode/certificate/:id/",
+      "destination": "/qrcode/certificate/index.html"
+    },
+    {
       "source": "/qrcode/certificate/:id",
       "destination": "/qrcode/certificate/index.html"
     }
