@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+.main_container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+.logo_foont {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.card_container {
+    border: 8px solid transparent;
+    border-color: #352384;
+    border-image-slice: 1;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    z-index: 99;
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.logo_background {
+    background-image: url('./back_logo.webp');
+    background-position: top center;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    width: 80%;
+    text-align: center;
+    margin: 0px auto;
+    padding: 1rem;
+    font-weight: bolder;
+}
+
+.main_heading {
+    position: relative;
+    color: #00008B;
+    letter-spacing: 4px;
+}
+
+.main_heading::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, #000, #000, #000, #000, #000);
+    position: absolute;
+    top: 100%;
+}
+
+.sub_heading {
+    color: #000;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.letter_spacing_certification {
+    letter-spacing: 6px;
+    color: #00008B;
+}
+
+.spacing {
+    letter-spacing: 2px;
+}
+
+.spacing_1 {
+    letter-spacing: 1px;
+}
+
+.presonal_info {
+    text-align: left;
+    margin: 0px auto;
+}
+
+.line_Height {
+    line-height: 0.5;
+}
+
+.verified {
+    color: green;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tick {
+    width: 60px;
+    height: 60px;
+    border: 1px solid transparent;
+    background-color: green;
+    border-radius: 50%;
+    margin: 8px auto;
+    color: #fff;
+    font-size: 2rem;
+}
+
+@media (max-width:900px) {
+    .card_container {
+        width: 98%;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .sub_heading {
+        color: #000;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-size: 18px;
+    }
+
+    .website_font_size {
+        font-size: 12px;
+    }
+}
