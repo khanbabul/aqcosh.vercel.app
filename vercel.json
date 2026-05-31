@@ -1,9 +1,0 @@
-{
-  "cleanUrls": true,
-  "rewrites": [
-    {
-      "source": "/qrcode/certificate/",
-      "destination": "/qrcode/certificate/index.html"
-    }
-  ]
-}
