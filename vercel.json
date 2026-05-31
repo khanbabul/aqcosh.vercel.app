@@ -1,8 +1,5 @@
 {
   "cleanUrls": true,
-  "redirects": [
-    { "source": "/test-me", "destination": "/qrcode/certificate", "permanent": false }
-  ],
   "rewrites": [
     {
       "source": "/qrcode/certificate/:id*",
