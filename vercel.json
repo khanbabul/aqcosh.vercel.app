@@ -1,13 +1,12 @@
 {
   "cleanUrls": true,
-  "routes": [
+  "redirects": [
+    { "source": "/test-me", "destination": "/qrcode/certificate", "permanent": false }
+  ],
+  "rewrites": [
     {
-      "src": "/qrcode/certificate/(?<id>[^/]+)",
-      "dest": "/qrcode/certificate/index.html"
-    },
-    {
-      "src": "/qrcode/certificate",
-      "dest": "/qrcode/certificate/index.html"
+      "source": "/qrcode/certificate/:id*",
+      "destination": "/qrcode/certificate/index.html"
     }
   ]
 }
